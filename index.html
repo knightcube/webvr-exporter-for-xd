@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XD to WebXR</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <h1 id="name">Rajat</h1>
+    <a-scene>
+      <a-assets>
+        <img id="city" src="exported_artboard.png" />
+      </a-assets>
+      <a-sky
+        id="image-360"
+        radius="10"
+        src="#city"
+      ></a-sky>
+    </a-scene>
+    <img id="demo_img" src="exported_artboard.png" alt="UI" />
+  </body>
+</html>
